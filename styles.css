@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #ECEEF0;
+}
+
+.cont {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 90%;
+    margin: 30px auto;
+    max-width: 1250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0px 50px;
+    border-bottom: 1px solid #ECEEF0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navitem {
+    color: #CED2DE;
+    padding-left: 12px;
+}
+
+.here {
+    color: #626262;
+}
+
+.login a {
+    color: #00C597;
+    padding-right: 12px;
+}
+
+button {
+    background-color: #00C597;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    min-width: 800px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right {}
+
+.right img {
+    margin: 40px 0px;
+}
+
+.left div {
+    margin-bottom: 30px;
+}
+
+.maintitle {
+    font-size: 2em;
+}
+
+span {
+    color: #00C597;
+}
+
+.sub {
+    color: #CED2DE;
+    font-size: 12px;
+}
+
+.brownbar {
+    background-color: #FEF2E1;
+    border-radius: 30px;
+    padding: 5px 12px;
+    color: #FFB600;
+    margin-top: 40px;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    color: #CED2DE;
+}
+
+.greenbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #E0FEF9;
+}
+
+.band {
+    width: 100%;
+    background-color: #E0FEF9;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.vline {
+    height: 40px;
+    width: 1px;
+    background-color: #CED2DE;
+}
+
+.myflex {
+    display: flex;
+    align-items: center;
+}
+
+.bigtitle {
+    font-size: 2em;
+}
+
+.statbox {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 25px;
+    align-items: center;
+}
+
+.statbox .title {
+    font-size: 11px;
+}
+
+.stat {
+    font-size: 20px;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rebeccapurple;
+    }
+}
